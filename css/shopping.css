@@ -1,0 +1,182 @@
+@charset "utf-8";
+html {
+	font-size: 62.5%;
+}
+
+body, h1, h2, h3 {
+	margin: 0;
+}
+
+body {
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+	font-size: 1.4rem;	
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.warpper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.main {	overflow: hidden; }
+
+.logo {
+	overflow: hidden;
+	margin-top: 30px;	
+}
+
+.logo h1 {
+	float: left;
+	margin-left: 20px;
+}
+
+.logo h2 {
+	float: left;
+	margin-top: 2px;
+}
+
+.logo h2 a {	
+	margin-left: 40px;
+	color: #f40;
+	text-decoration: none;
+}
+
+.serach span {
+	float: right;
+	margin-top: 7px;
+	margin-right: 20px;
+}
+
+.serach input {	
+	border: 2px solid #f40;
+}
+
+.serach input:nth-of-type(1) {
+	width: 300px;
+	outline: none;
+	padding-left: 5px;
+}
+
+.serach input:last-child {	
+	width: 60px;
+	cursor: pointer;
+	color: #fff;
+	background-color: #f40;
+}
+
+.crumbs {
+	overflow: hidden;
+  margin-top: 60px;
+  color: #000;
+}
+
+.crumbs a {
+	color: #36c;
+	text-decoration: none;
+}
+
+.crumbs a:hover {
+	color: #f40;
+	text-decoration: underline;
+}
+
+.crumbs h3 {
+  float: left;
+  margin-top: 12px;
+  margin-left: 15px;
+  font-weight: 400;
+}
+
+.crumbs li {
+  float: left;
+  padding-left: 5px;
+}
+
+.crumbs span {
+  float: right;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+.shop {	margin-top: 40px; }
+
+.empty h2 {
+	float: left; 	
+ 	width: 111px; 
+ 	height: 135px;
+ 	background-image: url(../img/shopping.jpg);
+	background-repeat: no-repeat;	
+}
+
+.empty h3 {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.look { position: relative; }
+
+.look ul {
+	position: absolute;
+	left: 130px;
+	top: 40px;
+  margin-top: 12px;
+  line-height: 20px;
+}
+
+.look li { margin-top: 5px;	}
+.look li a {
+	color: #f40;
+	text-decoration: none;
+}
+
+.look li a:hover {
+	color: #f00;
+	text-decoration: underline;
+}
+
+.footer {
+	overflow: hidden;
+	margin-top: 270px;
+	color: #6c6c6c;
+}
+
+.footsy {
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+.footsy li {
+	float: left;
+	margin-left: 10px;
+}
+
+.footsy li:last-child { color: #9c9c9c; }
+
+.footsy li a { 
+	display: block; 
+	color: #6c6c6c;
+	text-decoration: none;
+}
+
+.footsy li a:hover { color: red; }
+
+.foot {	margin-top: 10px; }
+
+.foot span {
+	margin-right: 10px;
+	margin-left: 10px;
+	color: #9c9c9c;
+}
+
+.foot span a {
+	text-decoration: none;
+	color: #6c6c6c;
+}
+
+.foot span a:hover { color: #f00; }

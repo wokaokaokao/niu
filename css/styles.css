@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/* 全局样式 */
+html{ font-size: 62.5%; }
+body, ul, h3, p { margin: 0; }
+ul{padding: 0;}
+a{
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size: 1.6rem;
+}
+ul { list-style: none;}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.clearfix{
+	overflow: hidden;
+	_zoom: 1%;
+}
+/* 页面样式 */
+.nav{
+	position: absolute;
+	left: 75px;
+	top: 0;
+	background: #fff;
+	border-radius: 5px;
+	height: 50px;
+	line-height: 50px;
+	margin: 10px auto;
+	z-index: 10;
+	-webkit-box-shadow: 0px 3px 5px #fff;
+	box-shadow: 0px 3px 5px #fff;
+}
+
+.nav a{ color: #000; }
+
+.nav ul li{ text-align: center; }
+
+.nav1 ul .logo{
+	background: url(../img/nav.png) 10px 15px;
+	background-repeat: no-repeat;
+	width: 80px;
+}
+
+.nav1 ul .logo a{
+	display: block;
+	text-indent: -9999px;
+}
+
+.nav1 ul li{
+	float: left;
+	margin-left: 30px;
+}
+
+.nav1>ul>li{ float: left;}
+
+.nav1 .about{
+	position: absolute;
+	display: none;
+}
+
+.nav1 .about li{
+	margin: 0; 
+	margin-right: 20px;
+}
+
+.nav1>ul>li:hover .about{ display: block; }
+
+
+.nav2 .search input:first-child {
+	border: 1px solid #000;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.nav2 .btn{
+	width: 50px;
+	height: 34px;
+	border: none;
+	cursor: pointer;
+	background: #000;
+	color: #fff;
+}
+
+.nav3 .login{
+	text-align: center;
+	float: right;
+}
+
+#subnav li{ background: #fff; }
+
+#subnav{ display: none;}
+
+.nav3 .shop{
+	float: right;
+}
+
+#owl-demo {
+	width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#owl-demo .item{ display: block;}
+#owl-demo img {
+	display: block;
+  width: 100%;
+}
+.owl-theme .owl-controls{
+	position: relative;
+	margin-top: -30px;
+}
+
+.details{	margin-top: 30px;}
+.details ul{ float: left;}
+.details ul:nth-of-type(1){ margin-left: 14px; }
+.details ul img{
+	width: 319px;
+	height: 228px;
+	margin-right: 14px;
+	border-radius: 10px;
+}
+.details ul li a{
+	font-size: 2rem;
+	font-weight: bold;
+	color: #666;
+	padding-left: 10px;
+}
+.details ul span a{
+	font-size: 1.4rem;
+	color: #999;
+	padding-left: 10px;
+}
+
+.footer{ padding-top: 50px;}
+
+.footer ul li p{
+	margin-top: 10px;
+}
+.footer ul li h3{
+	color: #666;
+	font-size: 1.4rem;
+}
+.footer ul li p a{
+	color: #999;
+	font-size: 1.2rem;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.footer ul li p a:hover{
+	color: #666;
+}
+
+.under{ margin-top: 50px; }
+
+.under p{ color: #999;}
+

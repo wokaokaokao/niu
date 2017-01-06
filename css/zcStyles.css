@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* 全局样式 */
+html{ font-size: 62.5%; }
+body, ul, h1, h2, h3, p { margin: 0; }
+body{ background: #F5F5F5;}
+ul{ padding: 0;}
+a{
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size: 1.6rem;
+}
+ul { list-style: none;}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.clearfix{
+	overflow: hidden;
+	_zoom: 1%;
+}
+/* 页面样式 */
+.nav{
+	position: absolute;
+	left: 75px;
+	top: 0;
+	background: #fff;
+	border-radius: 5px;
+	height: 50px;
+	line-height: 50px;
+	margin: 10px auto;
+	z-index: 10;
+	-webkit-box-shadow: 0px 3px 5px #fff;
+	box-shadow: 0px 3px 5px #fff;
+}
+
+.nav a{ color: #000; }
+
+.nav ul li{ text-align: center; }
+
+.nav1 ul .logo{
+	background: url(../img/nav.png) 10px 15px;
+	background-repeat: no-repeat;
+	width: 80px;
+}
+
+.nav1 ul .logo a{
+	display: block;
+	text-indent: -9999px;
+}
+
+.nav1 ul li{
+	float: left;
+	margin-left: 30px;
+}
+
+.nav1>ul>li{ float: left;}
+
+.nav1 .about{
+	position: absolute;
+	display: none;
+}
+
+.nav1 .about li{
+	margin: 0; 
+	margin-right: 20px;
+}
+
+.nav1>ul>li:hover .about{ display: block; }
+
+
+.nav2 .search input:first-child {
+	border: 1px solid #000;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.nav2 .btn{
+	width: 50px;
+	height: 34px;
+	border: none;
+	cursor: pointer;
+	background: #000;
+	color: #fff;
+}
+
+.nav3 .login{
+	text-align: center;
+	float: right;
+}
+
+.nav3 .shop{
+	float: right;
+}
+
+.main{
+	position: absolute;
+	top: 80px;
+	left: 350px;
+}
+
+.main .nav {
+	border-radius: 5px;
+	overflow: hidden;
+	width: 500px;
+	height: 600px;
+	background: #F4F5F3;
+	margin: 10px auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 40px 100px;
+}
+
+.main .nav input {
+	width: 260px;
+	height: 30px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: none;
+	margin-top: 20px;
+     outline: 0;
+}
+
+.main .nav i {
+	float: left;
+ width: 40px;
+ margin-top: 20px;
+ height: 32px;
+ line-height: 32px;
+ text-align: center;
+ 	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+ background: #fff;
+}
+
+#code{
+ width: 150px;
+ 	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px; 
+}
+
+.main .nav .checkbox {
+	width: 13px;
+	height: 12px;
+	margin-bottom: 60px;
+}
+
+.main .nav p {  
+	font-size: 12px;
+}
+
+.main .nav p:nth-of-type(2) span:nth-of-type(1) {
+	border-radius:15px;
+	background-color: #8A8A8A; 
+	padding: 10px 10px;
+	color: #fff;
+	margin-left: 22px;
+}
+
+button {
+	border-radius:15px;
+	background-color: #DA001D; 
+	border: none;
+	width: 300px;
+	height: 40px;
+	color: #fff;
+  cursor: pointer;
+}
+
+.main .nav p:nth-of-type(6) a {
+	margin-left: 50px;
+}
+
+span a {
+	color: #fff;
+}
+

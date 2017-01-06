@@ -1,0 +1,220 @@
+@charset "UTF-8";
+/* 全局样式 */
+html{ font-size: 62.5%; }
+body, ul, h1, h2, h3, p { margin: 0; }
+body{ background: #F5F5F5;}
+ul{ padding: 0;}
+a{
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size: 1.6rem;
+}
+ul { list-style: none;}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.clearfix{
+	overflow: hidden;
+	_zoom: 1%;
+}
+/* 页面样式 */
+.nav{
+	position: absolute;
+	left: 75px;
+	top: 0;
+	background: #fff;
+	border-radius: 5px;
+	height: 50px;
+	line-height: 50px;
+	margin: 10px auto;
+	z-index: 10;
+	-webkit-box-shadow: 0px 3px 5px #fff;
+	box-shadow: 0px 3px 5px #fff;
+}
+
+.nav a{ color: #000; }
+
+.nav ul li{ text-align: center; }
+
+.nav1 ul .logo{
+	background: url(../img/nav.png) 10px 15px;
+	background-repeat: no-repeat;
+	width: 80px;
+}
+
+.nav1 ul .logo a{
+	display: block;
+	text-indent: -9999px;
+}
+
+.nav1 ul li{
+	float: left;
+	margin-left: 30px;
+}
+
+.nav1>ul>li{ float: left;}
+
+.nav1 .about{
+	position: absolute;
+	display: none;
+}
+
+.nav1 .about li{
+	margin: 0; 
+	margin-right: 20px;
+}
+
+.nav1>ul>li:hover .about{ display: block; }
+
+
+.nav2 .search input:first-child {
+	border: 1px solid #000;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.nav2 .btn{
+	width: 50px;
+	height: 34px;
+	border: none;
+	cursor: pointer;
+	background: #000;
+	color: #fff;
+}
+
+.nav3 .login{
+	text-align: center;
+	float: right;
+}
+
+.nav3 .shop{
+	float: right;
+}
+
+#owl-demo {
+	width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#owl-demo .item{ display: block;}
+#owl-demo img {
+	display: block;
+  width: 100%;
+}
+.owl-theme .owl-controls{
+	position: relative;
+	margin-top: -30px;
+}
+
+.a{	margin: 20px 0;}
+
+.a h1{
+	 text-align: center;
+	 font-size: 4rem;
+}
+.a p{
+	text-align: center;
+	color: #999;
+	font-size: 2rem;
+}
+
+.product{
+	background: #fff;
+	height: 500px;
+}
+
+.che1, .che2 { text-align: center;}
+
+.che1 img, .che2 img{	vertical-align: middle;}
+
+.cfont1{
+	width: 520px;
+	height: 50px;
+	background: #fff;
+}
+
+.cfont1 a{
+	color: #999;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.cfont1 a:hover{ color: #666; }
+
+.cfont1 a:nth-of-type(1) {
+	margin-right: 200px;
+	padding-left: 80px;
+}
+
+.new h1{
+	margin: 30px 0;
+}
+
+.new h1 span{
+	color: #999;
+}
+
+.c1{
+	float: left;
+	margin-right: 30px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.yinying:hover{
+	-webkit-box-shadow: 1px 2px 3px 4px #999;
+	box-shadow: 1px 2px 3px 4px #999;
+}
+
+.yinying:hover h2 {
+	color: #999;
+}
+
+
+.fff{
+	margin-left: 10px;
+}
+
+.c1 img{
+	width: 260px;
+	height: 300px;
+	vertical-align: middle;
+}
+
+.cfont3{
+	width: 260px;
+	height: 65px;
+	background: #fff;
+}
+
+.top {
+	height: 360px;
+	margin-bottom: 20px;
+}
+
+.bottom{ height: 380px; }
+
+.new h2{
+	font-size: 1.8rem;
+	color: #5C6670;
+	font-weight: normal;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.new p{
+	font-size: 1.4rem;
+	color: #999;
+}
+
+.top span, .bottom span{
+	color: #f00;
+	float: right;
+}

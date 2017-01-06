@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/zcStyles.css">
+</head>
+<body>
+	<div class="nav container">
+	<div class="nav1 col-md-5">
+		<ul>
+			<li class="logo"><a href="index.html">niu</a></li>
+			<li><a href="#">关于我们</a>
+			<ul class="about">
+						<li><a href="#"><img src="img/222.png" alt=""></a></li>
+						<li><a href="#"><img src="img/222.png" alt=""></a></li>
+					</ul>
+			</li>
+			<li><a href="#">新闻中心</a></li>
+			<li><a href="商城.html">商城</a></li>
+			<li><a href="#">装备配件</a></li>
+		</ul>
+	</div>
+
+	<div class="nav2 col-md-3">
+		<form action="">
+			<div class="search">
+				<input type="text"><input class="btn" type="button" value="搜索">
+			</div>
+		</form>
+	</div>
+
+	<div class="nav3 col-md-4">
+		<div class="login col-md-2"><a href="#"><i class="fa fa-user"></i></a></div>
+		<div class="shop col-md-2"><a href="#"><i class="fa fa-shopping-cart"></i></a></div>
+	</div>
+
+	</div>
+	<div class="main">
+		<div class="nav">
+<h1>快速注册</h1>
+ 
+<p>
+	<i class="fa fa-phone" aria-hidden="true"></i><input type="text" id="account" name="account" value="" placeholder="请输入手机号" verify="mobiletel:!" msg="请输入正确的手机号码:请输入您的手机号">
+</p>
+
+<p>
+	<i class="fa fa-check-square-o" aria-hidden="true"></i><input type="text" id="code" name="code" placeholder="短信验证码" verify="number:!" msg="验证码格式不正确:请输入验证码"><span class="again"><a href="#">重新发送</a></span>
+</p>
+<p>
+	<i class="fa fa-lock" aria-hidden="true"></i><input type="password" id="password" name="password" placeholder="请输入密码" verify="numandstr:!" msg="密码格式不正确:请输入密码">
+</p>
+<p>
+	<i class="fa fa-lock" aria-hidden="true"></i><input type="password" id="re_password" name="re_password" placeholder="请再次输入密码" verify="numandstr:!" msg="密码格式不正确:请确认密码">
+</p>
+<p>
+	<i class="fa fa-envelope-o" aria-hidden="true"></i>
+	<input id="email" name="email" type="text" placeholder="请输入电子邮箱（选填）" verify="email:" msg="邮箱格式不正确">
+</p>
+<p>
+	<input class="checkbox" type="checkbox" name="protocol" id="protocol" checked="checked"><span>已阅读并同意注册 用户协议</span><a href="#">账号登录></a>
+</p>
+ <button class="achive">完成注册</button>
+		</div>
+	</div>
+</body>
+</html>
